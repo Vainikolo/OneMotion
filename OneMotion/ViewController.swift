@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    //Declared Buttons from the main storyboard
     @IBOutlet weak var startButton: UIButton!
     @IBOutlet weak var viewProfileButton: UIButton!
     @IBOutlet weak var addWorkoutButton: UIButton!
@@ -20,14 +20,19 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
 
+        //Calling the Home Page Button Display function
         startButton.layer.cornerRadius = startButton.frame.width / 2
-        
-        
+        HPButton(button: viewProfileButton)
+        HPButton(button: addWorkoutButton)
+        HPButton(button: createChallengeButton)
+        HPButton(button: viewProgressButton)
+        HPButton(button: myDayButton)
         
     }
     
+    /// Adds displat features to the home page buttons
+    /// - Parameter button: UIButton
     func HPButton(button: UIButton) {
         
         button.layer.masksToBounds = false
@@ -35,6 +40,8 @@ class ViewController: UIViewController {
         button.layer.shadowOpacity = 0.5
         button.layer.shadowOffset = CGSize(width: 0, height: 2)
         button.layer.shadowColor = UIColor.gray.cgColor
+        button.titleEdgeInsets.left = 20
+        button.backgroundColor = UIColor.white
     }
 
 

@@ -24,32 +24,32 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NzV-zq-YVD">
-                                <rect key="frame" x="20" y="590" width="400" height="30"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NzV-zq-YVD">
+                                <rect key="frame" x="0.0" y="590" width="414" height="30"/>
                                 <state key="normal" title="Add Workout                                                              Add &gt;">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jC9-Er-Qk1">
-                                <rect key="frame" x="20" y="640" width="400" height="30"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jC9-Er-Qk1">
+                                <rect key="frame" x="0.0" y="640" width="414" height="30"/>
                                 <state key="normal" title="Create a Challenge                                               Create &gt;">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEP-Br-yaN">
-                                <rect key="frame" x="20" y="690" width="400" height="30"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEP-Br-yaN">
+                                <rect key="frame" x="0.0" y="690" width="414" height="30"/>
                                 <state key="normal" title="View Progress                                                          View &gt;">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdG-F5-EGs">
-                                <rect key="frame" x="20" y="740" width="400" height="30"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdG-F5-EGs">
+                                <rect key="frame" x="0.0" y="740" width="414" height="30"/>
                                 <state key="normal" title="My Day                                                                     View &gt;">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgU-cJ-cMV">
-                                <rect key="frame" x="20" y="540" width="400" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgU-cJ-cMV">
+                                <rect key="frame" x="0.0" y="540" width="414" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="titleShadowOffset" width="5" height="10"/>
                                 <state key="normal" title="View Profile                                                              Show &gt;">
@@ -59,20 +59,25 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="zdG-F5-EGs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1VF-kV-kU0"/>
                             <constraint firstItem="zdG-F5-EGs" firstAttribute="top" secondItem="kEP-Br-yaN" secondAttribute="bottom" constant="20" id="3Va-HK-25H"/>
                             <constraint firstItem="kEP-Br-yaN" firstAttribute="top" secondItem="jC9-Er-Qk1" secondAttribute="bottom" constant="20" id="4uh-23-xYt"/>
-                            <constraint firstItem="UgU-cJ-cMV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="62S-6a-U9g"/>
+                            <constraint firstAttribute="trailing" secondItem="NzV-zq-YVD" secondAttribute="trailing" id="54E-ju-5Kv"/>
                             <constraint firstItem="jC9-Er-Qk1" firstAttribute="top" secondItem="NzV-zq-YVD" secondAttribute="bottom" constant="20" id="9PZ-HQ-nCy"/>
-                            <constraint firstItem="kEP-Br-yaN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="V10-hg-Yn3"/>
+                            <constraint firstItem="jC9-Er-Qk1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BuN-ef-tsK"/>
+                            <constraint firstItem="UgU-cJ-cMV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ie9-Xe-CnL"/>
+                            <constraint firstAttribute="trailing" secondItem="kEP-Br-yaN" secondAttribute="trailing" id="KS3-4T-JdB"/>
+                            <constraint firstItem="NzV-zq-YVD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Knj-R3-vNc"/>
+                            <constraint firstItem="zdG-F5-EGs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VdX-3v-wZ4"/>
                             <constraint firstItem="UgU-cJ-cMV" firstAttribute="top" secondItem="VAx-Mg-GcV" secondAttribute="bottom" constant="200" id="VvD-Rg-rIF"/>
                             <constraint firstItem="NzV-zq-YVD" firstAttribute="top" secondItem="UgU-cJ-cMV" secondAttribute="bottom" constant="20" id="b1R-gA-VSQ"/>
                             <constraint firstItem="VAx-Mg-GcV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="96" id="dn7-Ul-QKU"/>
                             <constraint firstItem="VAx-Mg-GcV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gbK-pQ-qqS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VAx-Mg-GcV" secondAttribute="bottom" constant="522" id="j5Q-aL-BgF"/>
+                            <constraint firstAttribute="trailing" secondItem="jC9-Er-Qk1" secondAttribute="trailing" id="kk1-OZ-3Xx"/>
+                            <constraint firstAttribute="trailing" secondItem="UgU-cJ-cMV" secondAttribute="trailing" id="lmm-FZ-RIU"/>
                             <constraint firstItem="VAx-Mg-GcV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="nlb-le-iaS"/>
-                            <constraint firstItem="jC9-Er-Qk1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vvb-MD-2Z4"/>
-                            <constraint firstItem="NzV-zq-YVD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xvM-5o-luJ"/>
+                            <constraint firstItem="kEP-Br-yaN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rGV-h4-JmO"/>
+                            <constraint firstAttribute="trailing" secondItem="zdG-F5-EGs" secondAttribute="trailing" id="vVp-nd-CqS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -81,6 +86,7 @@
                         <outlet property="createChallengeButton" destination="jC9-Er-Qk1" id="gXZ-aO-6iu"/>
                         <outlet property="myDayButton" destination="zdG-F5-EGs" id="tD5-bl-Mad"/>
                         <outlet property="startButton" destination="VAx-Mg-GcV" id="yWw-Kn-7I9"/>
+                        <outlet property="viewProfileButton" destination="UgU-cJ-cMV" id="ayv-zH-pSP"/>
                         <outlet property="viewProgressButton" destination="kEP-Br-yaN" id="Xac-cw-KwS"/>
                     </connections>
                 </viewController>
