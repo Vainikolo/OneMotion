@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,83 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OneMotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" contentMode="center" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAx-Mg-GcV">
+                                <rect key="frame" x="107" y="140" width="200" height="200"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Start Run">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NzV-zq-YVD">
+                                <rect key="frame" x="20" y="590" width="400" height="30"/>
+                                <state key="normal" title="Add Workout                                                              Add &gt;">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jC9-Er-Qk1">
+                                <rect key="frame" x="20" y="640" width="400" height="30"/>
+                                <state key="normal" title="Create a Challenge                                               Create &gt;">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEP-Br-yaN">
+                                <rect key="frame" x="20" y="690" width="400" height="30"/>
+                                <state key="normal" title="View Progress                                                          View &gt;">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdG-F5-EGs">
+                                <rect key="frame" x="20" y="740" width="400" height="30"/>
+                                <state key="normal" title="My Day                                                                     View &gt;">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgU-cJ-cMV">
+                                <rect key="frame" x="20" y="540" width="400" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="titleShadowOffset" width="5" height="10"/>
+                                <state key="normal" title="View Profile                                                              Show &gt;">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zdG-F5-EGs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1VF-kV-kU0"/>
+                            <constraint firstItem="zdG-F5-EGs" firstAttribute="top" secondItem="kEP-Br-yaN" secondAttribute="bottom" constant="20" id="3Va-HK-25H"/>
+                            <constraint firstItem="kEP-Br-yaN" firstAttribute="top" secondItem="jC9-Er-Qk1" secondAttribute="bottom" constant="20" id="4uh-23-xYt"/>
+                            <constraint firstItem="UgU-cJ-cMV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="62S-6a-U9g"/>
+                            <constraint firstItem="jC9-Er-Qk1" firstAttribute="top" secondItem="NzV-zq-YVD" secondAttribute="bottom" constant="20" id="9PZ-HQ-nCy"/>
+                            <constraint firstItem="kEP-Br-yaN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="V10-hg-Yn3"/>
+                            <constraint firstItem="UgU-cJ-cMV" firstAttribute="top" secondItem="VAx-Mg-GcV" secondAttribute="bottom" constant="200" id="VvD-Rg-rIF"/>
+                            <constraint firstItem="NzV-zq-YVD" firstAttribute="top" secondItem="UgU-cJ-cMV" secondAttribute="bottom" constant="20" id="b1R-gA-VSQ"/>
+                            <constraint firstItem="VAx-Mg-GcV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="96" id="dn7-Ul-QKU"/>
+                            <constraint firstItem="VAx-Mg-GcV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gbK-pQ-qqS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VAx-Mg-GcV" secondAttribute="bottom" constant="522" id="j5Q-aL-BgF"/>
+                            <constraint firstItem="VAx-Mg-GcV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="107" id="nlb-le-iaS"/>
+                            <constraint firstItem="jC9-Er-Qk1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vvb-MD-2Z4"/>
+                            <constraint firstItem="NzV-zq-YVD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="xvM-5o-luJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="addWorkoutButton" destination="NzV-zq-YVD" id="afT-FU-yEw"/>
+                        <outlet property="createChallengeButton" destination="jC9-Er-Qk1" id="gXZ-aO-6iu"/>
+                        <outlet property="myDayButton" destination="zdG-F5-EGs" id="tD5-bl-Mad"/>
+                        <outlet property="startButton" destination="VAx-Mg-GcV" id="yWw-Kn-7I9"/>
+                        <outlet property="viewProgressButton" destination="kEP-Br-yaN" id="Xac-cw-KwS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-59.420289855072468" y="53.571428571428569"/>
         </scene>
     </scenes>
 </document>
