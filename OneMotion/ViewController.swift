@@ -25,12 +25,16 @@ class ViewController: UIViewController {
         startButton.layer.cornerRadius = startButton.frame.width / 2
         
         
-//        viewProfileButton.layer.masksToBounds = false
-//        viewProfileButton.layer.shadowRadius = 10
-//        viewProfileButton.layer.shadowOpacity = 1.0
-//        viewProfileButton.layer.shadowOffset = CGSize(width: 2, height: 2)
-//        viewProfileButton.layer.shadowColor = UIColor.darkGray.cgColor
         
+    }
+    
+    func HPButton(button: UIButton) {
+        
+        button.layer.masksToBounds = false
+        button.layer.shadowRadius = 5
+        button.layer.shadowOpacity = 0.5
+        button.layer.shadowOffset = CGSize(width: 0, height: 2)
+        button.layer.shadowColor = UIColor.gray.cgColor
     }
 
 
