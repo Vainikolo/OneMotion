@@ -253,7 +253,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ei6-zZ-6m6"/>
                     </view>
-                    <navigationItem key="navigationItem" id="JJ0-0I-DE9"/>
+                    <navigationItem key="navigationItem" id="JJ0-0I-DE9">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="FIR-v4-pXs">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="k8o-hc-1J2">
+                                <rect key="frame" x="302" y="7" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="gear" catalog="system"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="DOB" destination="yzM-o9-6gb" id="oOC-If-FGW"/>
                         <outlet property="email" destination="2fd-9q-EjT" id="txJ-k4-m6S"/>
@@ -291,5 +299,6 @@
     </scenes>
     <resources>
         <image name="DefaultProfile" width="230" height="226"/>
+        <image name="gear" catalog="system" width="128" height="119"/>
     </resources>
 </document>
