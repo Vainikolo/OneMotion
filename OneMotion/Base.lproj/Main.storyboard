@@ -160,6 +160,9 @@
                                 <state key="normal" title="Save">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveProfileButton:" destination="ROx-QJ-NyU" eventType="touchUpInside" id="7tL-C0-KFC"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zav-7Y-dHm">
                                 <rect key="frame" x="20" y="295" width="92" height="21"/>
@@ -252,8 +255,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="JJ0-0I-DE9"/>
                     <connections>
+                        <outlet property="DOB" destination="yzM-o9-6gb" id="oOC-If-FGW"/>
+                        <outlet property="email" destination="2fd-9q-EjT" id="txJ-k4-m6S"/>
+                        <outlet property="firstName" destination="7aY-V2-WuS" id="7tq-B7-eXO"/>
+                        <outlet property="gender" destination="StP-qq-M9A" id="rdA-Oh-xOk"/>
+                        <outlet property="height" destination="CAh-p8-XO0" id="7yH-ls-esS"/>
+                        <outlet property="lastName" destination="uVb-yL-Q8e" id="0LP-8n-M9N"/>
                         <outlet property="profilePhoto" destination="7Ye-MQ-IyR" id="8cZ-Eb-ff2"/>
                         <outlet property="saveButton" destination="ehM-QW-7zJ" id="IPp-1f-1ZA"/>
+                        <outlet property="weight" destination="4nU-G2-Id7" id="ILG-nY-grU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I4I-al-1Cv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
