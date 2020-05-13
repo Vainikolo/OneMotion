@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--HomePage-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="OneMotion" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="HomePage" customClass="ViewController" customModule="OneMotion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" contentMode="center" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,10 +100,10 @@
             </objects>
             <point key="canvasLocation" x="850.72463768115949" y="53.571428571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--ProfilePage-->
         <scene sceneID="C1f-aN-N0l">
             <objects>
-                <viewController id="ROx-QJ-NyU" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileViewController" id="ROx-QJ-NyU" userLabel="ProfilePage" customClass="ProfileViewController" customModule="OneMotion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oSR-8l-KqN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -211,11 +211,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVa-8l-u7t">
-                                <rect key="frame" x="157" y="225" width="100" height="30"/>
+                                <rect key="frame" x="157" y="239" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Tap to Change">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="changePhotoButton:" destination="ROx-QJ-NyU" eventType="touchUpInside" id="fcs-6O-bKF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -248,6 +251,10 @@
                         <viewLayoutGuide key="safeArea" id="ei6-zZ-6m6"/>
                     </view>
                     <navigationItem key="navigationItem" id="JJ0-0I-DE9"/>
+                    <connections>
+                        <outlet property="profilePhoto" destination="7Ye-MQ-IyR" id="8cZ-Eb-ff2"/>
+                        <outlet property="saveButton" destination="ehM-QW-7zJ" id="IPp-1f-1ZA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I4I-al-1Cv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
